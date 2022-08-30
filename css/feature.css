@@ -1,0 +1,132 @@
+.feature__title{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.feature__heading--width{
+    width: 676px;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 110%;
+}
+
+.feature__box{
+    display: flex;
+    margin-top:50px ;
+}
+
+.feature__img{
+    width: 50%;
+    height: 400px;
+    
+}
+
+.feature__list{
+    width: 50%;
+   
+
+
+}
+.feature__img--width{
+    width:400px;
+    margin-top: 50px;
+}
+
+.feature__para{
+    width: 500px;
+}
+
+
+.feature__itemOne{
+
+   
+    background:#F0EDFF;
+    position: relative;
+    padding: 30px 0;
+    padding-left: 150px;
+    margin-top:10px ;
+    
+
+}
+.feature__itemTwo{
+
+   
+    background: #FEF6EC;
+    position: relative;
+    padding: 30px 0;
+    padding-left: 150px;
+    margin-top:10px ;
+    
+
+}
+
+.feature__itemThree{
+
+   
+    background: #E8FCF2;
+    position: relative;
+    padding: 30px 0;
+    padding-left: 150px;
+    margin-top:10px ;
+    
+
+}
+
+
+.feature__roundOne{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #7968EF;
+    background-image: url('../images/r1v.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.feature__roundTwo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #F8A64C;
+    background-image: url('../images/r2v.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.feature__roundThree{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #63DE9D;
+    background-image: url('../images/r3v.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+
+.feature__listTitle{
+    
+    font-family: var(--poppin);
+    font-size: var(--parafontsize);
+    font-weight: var(--semibold);
+    color: var(--black);
+    
+
+
+}

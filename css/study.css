@@ -1,0 +1,5 @@
+.header{
+    display: flex;
+    background:hotpink ;
+    justify-content: space-between;
+}

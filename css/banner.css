@@ -1,0 +1,134 @@
+
+
+.banner{
+    background: url('../images/bk.png');
+    
+    height: 1000px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.banner__cloud1{
+    position: absolute;
+    width:100% ;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    animation: c1 1s infinite alternate linear;
+}
+
+@keyframes c1{
+    from{
+        left: -20px;
+
+    }
+    to{
+        left: 0;
+    }
+}
+
+.banner__cloud2{
+    position: absolute;
+    width:100% ;
+    bottom: 0;
+    left:0 ;
+    animation: c2 1s infinite alternate linear;
+}
+
+@keyframes c2{
+    from{
+        left: 0;
+
+    }
+    to{
+        left: -20px;
+    }
+}
+.banner__cloud3{
+    position: absolute;
+    width:100% ;
+    bottom: 0;
+    left:0 ;
+    animation: c3 1s infinite alternate linear;
+}
+
+@keyframes c3{
+    from{
+        left: -20px;
+
+    }
+    to{     
+        left: 0;
+
+    }
+}
+
+
+.banner__rocket{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    animation: rk 2s linear forwards  ;
+    
+   
+   
+}
+
+@keyframes rk{
+    from{
+        top:0;
+
+    }
+    to{
+        top:-1000px;
+
+    }
+}
+
+
+.banner__services{
+    text-align: center;
+    font-family: var(--nunito);
+    font-weight: var(--medium);
+    font-size: var(--parafontsize);
+    color: aliceblue;
+    margin-top: 80px;
+}
+.banner__service{
+    display:inline-block;
+    border: 1px solid var(--white) ;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.banner__heading{
+    font-family: var(--poppin);
+    font-weight: var(--bold);
+    color: var(--white);
+    text-align: center;
+    font-size: 54px;
+    width: 967px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 110%;
+
+}
+
+.banner__para{
+    font-family: var(--nunito);
+    font-weight: var(--regular);
+    font-size: var(--parafontsize);
+    width: 780px;
+    margin: 0 auto;
+    color: #E4F0FF;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 130%;
+    text-transform: capitalize;
+ 
+}
+
+

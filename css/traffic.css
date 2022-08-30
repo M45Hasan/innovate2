@@ -1,0 +1,23 @@
+.traffic__container{
+    margin-top:70px ;
+    display: flex;
+
+}
+.traffic__text{
+    width: 50%;
+  
+}
+
+.traffic__box{
+    width: 50%;
+    height: 400px;
+    background: url('../images/fra2.png');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+}
+
+
+.traffic__para--margin{
+    margin-top:45px;
+    line-height:130%;
+}

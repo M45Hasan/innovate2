@@ -9,13 +9,13 @@
 }
 
 .navbar__logo{
-    width: 20%;
+    width: 12%;
     
     
 
 }
 .navbar__item{
-    width: 60%;
+    width: 73%;
     
 
     
@@ -42,7 +42,7 @@
 }
 
 .navbar__button{
-    width: 20%;
+    width: 14%;
     
     display: flex;
     justify-content: flex-end;

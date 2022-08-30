@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 74px;
+    column-gap: 68px;
     color:#fff;
     font-family: var(--opensan);
     font-weight: var(--semibold);
@@ -42,7 +42,7 @@
 }
 
 .navbar__button{
-    width: 14%;
+    width: 15%;
     
     display: flex;
     justify-content: flex-end;

@@ -66,8 +66,9 @@
 
 .banner__rocket{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -100px;
+    right:100px;
+   
 
     animation: rk 2s linear forwards  ;
     

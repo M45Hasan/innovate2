@@ -1,5 +1,58 @@
-.header{
+.st__header{
     display: flex;
-    background:hotpink ;
+    
     justify-content: space-between;
 }
+
+.st__button{
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    color: #6A55EA;
+    
+    border-color: #6A55EA;
+    margin-top: 13px;
+    transition: .4s;
+}
+.st__button:hover{
+    width: 130px;
+    height: 50px;
+    border-radius: 12px;
+    color: #6A55EA;
+    background-color: hotpink;
+    border-color: #6A55EA;
+    margin-top: 13px;
+}
+
+.st__subhd--size{
+    font-size: 16px;
+}
+
+.st__hd--size{
+    font-size: 28px;
+}
+
+.st__box{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 30px;
+}
+
+.stbox__heading{
+    font-family: var(--poppin);
+    font-weight: var(--medium);;
+    color: #29313D;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.stbox__para{
+    font-family: var(--nunito);
+    font-weight: 400;
+    color: #29313D;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    width: 298px;
+}
+

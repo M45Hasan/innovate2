@@ -114,4 +114,25 @@
     display: block;
     width: 250px;
     margin-top: 37px;
+    position: relative;
+}
+
+.help__hair{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    padding-left: 150px;
+    padding-top: 128px;
+
+    animation: hair 2s infinite .5s forwards;
+
+}
+
+@keyframes hair{
+    form{padding-left: 150px;
+        padding-top: 140px;
+    opacity: 1;}
+        to{padding-left: 200px;
+            padding-top: 100px;
+        opacity: 0;}
 }
